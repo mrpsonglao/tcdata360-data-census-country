@@ -104,10 +104,10 @@ Plotly.d3.csv('https://raw.githubusercontent.com/mrpsonglao/tcdata360-data-censu
             yref: 'paper',
             xanchor: 'left',
             yanchor: 'bottom',
-            font: {size: 30}
+            font: {size: 20}
       },
       {
-        text: '<b>This initial frame is for year 2016 (not 1955).</b> Each bubble represents a country, and its size is proportional to the number of datasets covering that country on TCdata360.',
+        text: '<b>This initial frame is for year 2016 (not 1955).</b> Each bubble represents a country.',
           showarrow: false,
             x: 0,
             y: 1.2,
@@ -115,13 +115,24 @@ Plotly.d3.csv('https://raw.githubusercontent.com/mrpsonglao/tcdata360-data-censu
             yref: 'paper',
             xanchor: 'left',
             yanchor: 'bottom',
-            font: {size: 12}
+            font: {size: 10}
+      },
+      {
+        text: 'Its size is proportional to the number of datasets covering that country on TCdata360.',
+          showarrow: false,
+            x: 0,
+            y: 1.125,
+            xref: 'paper',
+            yref: 'paper',
+            xanchor: 'left',
+            yanchor: 'bottom',
+            font: {size: 10}
       },
       {
         text: "<i>Note: This interactive chart was made based on plotly's original code at https://codepen.io/plotly/details/KNrJQo</i>",
           showarrow: false,
             x: 0,
-            y: 1.125,
+            y: 1.05,
             xref: 'paper',
             yref: 'paper',
             xanchor: 'left',
